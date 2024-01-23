@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitio1</title>
+    <link rel="stylesheet" href="estilos/basico.css">
+    <link rel="stylesheet" href="estilos/custom.css">
+</head>
+<!-- Es prioritario el id sobre el class en los estilos  -->
+<body class="cuerpo" id="cuerpo"> 
+    
+    <h2></h2>
+
+    <p onclick="saludar2()" class="texto">Saludo 1</p>
+    <hr>
+    <p onclick="saludar2('Marta')" class="texto">Saludo 2</p>
+    <hr>
+    <p onclick="mostrarMensaje()" class="texto">Saludo 3</p>
+    <hr>
+    <div id="mensaje" style="display: none;">
+        Como has clickeado, eres un cotilla
+    </div>
+    <br>
+    <p onclick="calcular()" class="texto">Calcular</p>
+    <br>
+
+
+    <script src="js/codigo.js"></script>
+</body>
+</html>
